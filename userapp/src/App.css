@@ -1,0 +1,25 @@
+.App {
+  padding: 4rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  background-color: rgb(171, 37, 248);
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar button {
+  height: max-content;
+  background-color: rgb(12, 126, 12);
+  border: none;
+  padding: 0.4rem;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+}

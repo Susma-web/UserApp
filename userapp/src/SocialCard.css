@@ -1,0 +1,31 @@
+.card{
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 28px 4px rgb(21, 250, 250);
+    transition: transform .3s ease;
+    cursor: pointer;
+
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card_title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.card__image{
+    display: flex;
+    justify-content: flex-end;
+}
+.card__image img{
+    border-radius: 50%;
+
+}
+.card_email{
+    margin: 0;
+    padding: 0cm;
+    font-size: 1rem;
+    color: #1423f1;
+}
